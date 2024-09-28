@@ -1,0 +1,75 @@
+
+
+
+
+.imagine{
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    height: 600px;
+  }
+  #first{
+    display:flex;
+    flex-direction: row;
+  }
+  #two{
+    width:600px;
+    box-shadow: 2px 3px 2px grey;
+    margin-right: 4%;
+    margin-top: 5%;
+  }
+  label{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    margin-left: 3%;
+    padding-left: 3%;
+    margin-top: 3%;
+  }
+  input[type="text"],[type="email"],[type="email"][type="password"]{
+    padding: 2%;
+    margin-left: 3%;
+    width: 90%;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 25px;
+    border: none;
+    border-bottom: 3%;
+  }
+  button{
+    border: none;
+    box-shadow: 2px 3px 4px grey;
+    color: white;
+    font-size: 15px;
+    background-color: green;
+    border-radius: 20px;
+    width: 90%;
+    padding: 1%;
+  }
+  button:hover{
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+  }
+  h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  .check{
+    display:flex;
+    flex-direction: row;
+  }
+  input[type="checkbox"]{
+    accent-color: green;
+    margin-left: 3%;
+    margin-right: 4%;
+    font-size: 3%;
+  }
+  p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1%;
+  }
+  a{
+    text-decoration: none;
+    color: green;
+  }
